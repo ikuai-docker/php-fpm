@@ -13,6 +13,7 @@ RUN apt-get update; \
     apt-get upgrade -y; \
     apt autoremove -y lsb-base; \
     apt-get install -y \
+    vim \
     procps \
     git \
     zip unzip \
